@@ -10,6 +10,6 @@ public interface UserService {
     void update(User c);
     User get(int id);
     List list();
-    boolean isExis(String name);
+    boolean isExist(String name);
     User get(String name, String password);
 }

@@ -5,7 +5,6 @@ import java.io.File;
 import java.util.List;
 
 import javax.imageio.ImageIO;
-import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +17,6 @@ import com.how2java.tmall.pojo.ProductImage;
 import com.how2java.tmall.service.ProductImageService;
 import com.how2java.tmall.service.ProductService;
 import com.how2java.tmall.util.ImageUtil;
-import com.how2java.tmall.util.Page;
 import com.how2java.tmall.util.UploadedImageFile;
 
 

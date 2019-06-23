@@ -43,7 +43,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public boolean isExis(String name) {
+    public boolean isExist(String name) {
         UserExample example = new UserExample();
         example.createCriteria().andNameEqualTo(name);
         List<User> result = userMapper.selectByExample(example);
